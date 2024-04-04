@@ -16,11 +16,10 @@ export default function Home() {
           <div className="square" style={{ "--i": 3 } as any}></div>
           <div className="square" style={{ "--i": 4 } as any}></div>
           <div className="container">
-            {/* Content */}
 
             <div className="form">
               <h2>Login Form</h2>
-              <form id="form"action = "api/user">
+              <form id="form"action = "/dashboard">
                 <div className="inputBox">
                   <input type="email" name="email" placeholder="Username" required />
                 </div>
